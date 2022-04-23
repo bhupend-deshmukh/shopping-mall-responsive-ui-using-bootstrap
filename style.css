@@ -24,12 +24,14 @@ html {
 
 .child-img img {
   width: 4rem;
+  cursor: pointer;
 }
 
 .main-img-1 {
   width: 15rem;
   height: 25rem;
   opacity: 1;
+  cursor: pointer;
 }
 
 .middle-section {
