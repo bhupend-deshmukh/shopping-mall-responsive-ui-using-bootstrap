@@ -62,9 +62,12 @@
   <body>
     <!-- As a link -->
     <div class="container-fluid">
-      <nav class="navbar navbar-expand-lg p-0 navbar-light">
-        
-        <span style="font-size: 2rem"
+
+      <div class="header-bar">
+
+        <nav class="navbar navbar-expand-lg p-0 navbar-light">
+          
+          <span style="font-size: 1.7rem;font-weight: 600;"
           >Shopp<span style="color: red;text-decoration: underline;">ind</span>
         </span>
         <button
@@ -75,7 +78,7 @@
           aria-controls="navbarTogglerDemo01"
           aria-expanded="false"
           aria-label="Toggle navigation"
-        >
+          >
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
@@ -85,17 +88,17 @@
                 <ion-icon name="search-outline"></ion-icon>
               </div>
               <input
-                style="
+              style="
                   width: 400px;
                   outline: none;
                   border: none;
                   font-size: 13px;                
-                "
+                  "
                 class="ml-1"
                 placeholder="Search for designers, products and categories....."
-              />
-            </div>
-          </ul>
+                />
+              </div>
+            </ul>
           <ul class="navbar-nav mt-2 mt-lg-0">
             <li class="nav-item">
               <a class="nav-link mt-1" style="font-size: large" href="#"
@@ -104,83 +107,85 @@
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#"
-                ><ion-icon size="large" name="cart-outline"></ion-icon>
-                <!-- <span class="badge badge-pill badge-danger">1</span> -->
-              </a>
-            </li>
-
+              ><ion-icon size="large" name="cart-outline"></ion-icon>
+              <!-- <span class="badge badge-pill badge-danger">1</span> -->
+            </a>
+          </li>
+          
             <li class="nav-item">
               <a class="nav-link" href="#"
-                ><ion-icon size="large" name="heart-outline"></ion-icon
+              ><ion-icon size="large" name="heart-outline"></ion-icon
               ></a>
             </li>
-
+            
             <li class="nav-item">
               <a class="nav-link" href="#"
-                ><ion-icon size="large" name="person-circle-outline"></ion-icon
-              ></a>
+              ><ion-icon size="large" name="person-circle-outline"></ion-icon
+                ></a>
             </li>
           </ul>
         </div>
       </nav>
-
+      
       <ul class="nav all-item justify-content-end">
-        <li class="nav-item">
-          <a class="nav-link text-dark" href="#">WHAT’S NEW <span class="text-danger">(+28)</span></a>
+        <li class="nav-item text-dark ">
+          WHAT’S NEW
+          <span class="text-danger">(+28)</span>
         </li>
-
-        <li class="nav-item">
-          <a class="nav-link text-dark" href="#">WOMEN</a>
+        
+        <li class="nav-item text-dark">
+          WOMEN
         </li>
-
-        <li class="nav-item">
-          <a class="nav-link text-dark" href="#">SAREE STUDIO</a>
+        
+        <li class="nav-item text-dark">
+          SAREE STUDIO
         </li>
-
-        <li class="nav-item">
-          <a class="nav-link text-dark" href="#">WEDDING</a>
+        
+        <li class="nav-item text-dark">
+          WEDDING
         </li>
-
-        <li class="nav-item">
-          <a class="nav-link text-dark" href="#">PRET</a>
+        
+        <li class="nav-item text-dark">
+          PRET
         </li>
-
-        <li class="nav-item">
-          <a class="nav-link text-dark" href="#">MEN</a>
+        
+        <li class="nav-item text-dark">
+          MEN
         </li>
-
-        <li class="nav-item">
-          <a class="nav-link text-dark" href="#">KIDS</a>
-        </li>
-
-        <li class="nav-item">
-          <a class="nav-link text-dark" href="#">JEWELLERY</a>
-        </li>
-
-        <li class="nav-item">
-          <a class="nav-link text-dark" href="#">ACCESSORIES</a>
-        </li>
-
-        <li class="nav-item">
-          <a class="nav-link text-dark" href="#">HOME</a>
+        
+        <li class="nav-item text-dark">
+          KIDS
         </li>
 
         <li class="nav-item text-dark">
-          <a class="nav-link text-dark" href="#">CURATIONS</a>
+          JEWELLERY
+        </li>
+        
+        <li class="nav-item text-dark">
+          ACCESSORIES
+        </li>
+        
+        <li class="nav-item text-dark">
+          HOME
         </li>
 
-        <li class="nav-item">
-          <a class="nav-link text-dark" href="#">READY TO SHIP</a>
+        <li class="nav-item text-dark">
+          CURATIONS
         </li>
-
-        <li class="nav-item">
-          <a class="nav-link text-danger" href="#">EOSS</a>
+        
+        <li class="nav-item text-dark">
+          READY TO SHIP
+        </li>
+        
+        <li class="nav-item text-danger">
+          EOSS
         </li>
       </ul>
       <hr />
+    </div>
 
       <main class="container">
-      <div
+        <div
         class="sale-sections d-flex"
         style="
           text-align: center;
@@ -188,10 +193,10 @@
           padding: 0.7rem 0;
           background-color: black;
           justify-content: space-between;
-        "
+          "
       >
-        <img style="width: 7rem" src="./images/clipart-sale-text.png" alt="" />
-        <h1 class="text-white mt-1 px-4">00:21:08</h1>
+      <img style="width: 7rem" src="./images/clipart-sale-text.png" alt="" />
+      <h1 class="text-white mt-1 px-4">00:21:08</h1>
         <!-- <h1 style="text-align: center; border: 2px solid black; padding: 1.2rem 0; background-color:black; color: white;">00:21:08</h1>  -->
         <h1 class="text-white mt-1 px-4">80% OFF</h1>
       </div>
@@ -228,19 +233,23 @@
                 <option value="!00$">5 Quantity</option>
               </select>
 
+              <!-- <button style="background-color:#e23d3d; font-size: .5rem;" class="">Share App Link</button> -->
+              
               <button
                 type="button"
                 class="btn"
                 style="
                   padding-left: 1.2rem;
                   padding-right: 1.2rem;
-                  border: hidden;
+                  border: 0;
                   background-color: #e83647;
                   color: white;
                 "
               >
                 Add to cart
               </button>
+
+              
             </div>
           </div>
         </div>
@@ -460,14 +469,8 @@
                     aria-describedby="button-addon2"
 
                   />
-                  <button
-                    class="btn btn-outline-secondary"
-                    type="button"
-                    id="button-addon2"
-                    style="padding-left: .9rem; padding-right: .9rem; border: hidden;"
-                  >
-                    Share App Link
-                  </button>
+                  <button style="background-color: black; font-size: .5rem;" class="pl-2 pr-2">Share App Link</button>
+
                 </div>
               </div>
               <div class="appGoogle my-5">

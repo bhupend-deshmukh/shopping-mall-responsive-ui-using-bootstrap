@@ -1,14 +1,10 @@
-.nav {
-  font-size: 8rem;
-}
-
 .nav-item{
-  font-size: .7rem;
-  
+  cursor: pointer;
+  font-size: .8rem;
 }
 
-.all-item li{
-  
+.all-item {
+  gap: 1rem;
 }
 
 * {
@@ -20,7 +16,12 @@ html {
   font-size: 1vw;
 }
 
-
+.header-bar{
+  position: sticky;
+  top: 0;
+  z-index: 1;
+  background-color: white;
+}
 
 .child-img img {
   width: 4rem;
