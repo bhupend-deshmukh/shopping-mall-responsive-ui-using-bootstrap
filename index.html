@@ -62,10 +62,10 @@
   <body>
     <!-- As a link -->
     <div class="container-fluid">
-      <nav class="navbar navbar-expand-lg p-0 navbar-light bg-light">
+      <nav class="navbar navbar-expand-lg p-0 navbar-light">
         
         <span style="font-size: 2rem"
-          >Shopp<span style="color: red">ind</span>
+          >Shopp<span style="color: red;text-decoration: underline;">ind</span>
         </span>
         <button
           class="navbar-toggler"
@@ -80,7 +80,7 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
           <ul class="navbar-nav ml-auto mr-auto mt-2 mt-lg-0">
-            <div class="d-flex border pr-2 pl-2" style="opacity: 0.5">
+            <div class="d-flex border pr-2 pl-2" style="opacity: 0.5; margin-right: 15rem;">
               <div class="mt-auto">
                 <ion-icon name="search-outline"></ion-icon>
               </div>
@@ -89,7 +89,7 @@
                   width: 400px;
                   outline: none;
                   border: none;
-                  font-size: 15px;
+                  font-size: 13px;                
                 "
                 class="ml-1"
                 placeholder="Search for designers, products and categories....."
@@ -126,7 +126,7 @@
 
       <ul class="nav all-item justify-content-end">
         <li class="nav-item">
-          <a class="nav-link active text-dark" href="#">WHAT’S NEW <span class="text-danger">(+28)</span></a>
+          <a class="nav-link text-dark" href="#">WHAT’S NEW <span class="text-danger">(+28)</span></a>
         </li>
 
         <li class="nav-item">
@@ -232,10 +232,11 @@
                 type="button"
                 class="btn"
                 style="
-                  padding-left: 2.9rem;
-                  padding-right: 2.9rem;
-                  border: none;
+                  padding-left: 1.2rem;
+                  padding-right: 1.2rem;
+                  border: hidden;
                   background-color: #e83647;
+                  color: white;
                 "
               >
                 Add to cart
@@ -245,20 +246,21 @@
         </div>
         <div class="details-product">
           <p class="home-women-sareess">Home > Women > Sarees</p>
-          <div class="shyam-women">
+          <ul class="shyam-women" style="list-style: none;">
             <h1>SHYAM NARAYAN PRASAD</h1>
 
-            <p class="text-dark font-weight-bold">
+            <li class="text-dark font-weight-bold">
               by : <span id="by">Itsy Bitsy Pvt Ltd</span>
-            </p>
-            <p class="text-dark font-weight-bold">Stock:77</p>
-          </div>
+            </li>
+            <li class="text-dark font-weight-bold">Stock:77</li>
+          </ul>
           <hr />
-          <div class="price-details">
-            <p>M.R.P.: <del>₹23,500</del></p>
-            <p>Price: <span id="price-m">₹15,500</span></p>
-            <p>You save: <span id="you-save">₹5.50</span></p>
-          </div>
+          <ul class="price-details" style="list-style: none;">
+            
+            <li>M.R.P.: <del>₹23,500</del></li>
+            <li>Price: <span id="price-m">₹15,500</span></li>
+            <li>You save: <span id="you-save">₹5.50</span></li>
+          </ul>
           <hr />
           <div class="Sizes">
             <h5 class="font-weight-bold" style="font-size: 1rem">Sizes:</h5>
@@ -339,8 +341,8 @@
         </div>
       </div>
 
-      <div class="descriptions">
-        <h4>Descriptions</h4>
+      <div class="col-12 descriptions">
+        <h4 class="mt-5">Descriptions</h4>
         <div class="line-desc"></div>
         <hr class="hr" />
         <p>
@@ -351,14 +353,14 @@
         </p>
       </div>
 
-      <div class="Reviews mt-2">
-        <h4>Reviews</h4>
+      <div class="col-12 Reviews mt-2">
+        <h4 class="mt-5">Reviews</h4>
         <hr />
 
         <div class="wr-btn d-flex">
           <p>Be the first person to review</p>
           
-          <button class="ml-5 mb-4">Add to cart</button>
+          <button class="pl-2 pr-2" style="font-size: 13;background-color: white;">Write a Review</button>
         </div>
       </div>
     </div>
@@ -412,7 +414,7 @@
               <li class="mailhide">customercare@perniaspopupshop.com</li>
             </ul>
             <h6><strong>FOLLOW US</strong></h6>
-            <div class="sitesContact d-flex align-items-center gap-1">
+            <div class="sitesContact d-flex align-items-center" style="gap: .5rem;">
               <img src="./images/fb.svg" style="width: 1rem" alt="" />
               <img src="./images/insta.svg" style="width: 1.5rem" alt="" />
               <img src="./images/twt.svg" style="width: 1rem" alt="" />
@@ -432,27 +434,37 @@
                 </li>
               </ul>
               
+              <!-- <hr> -->
 
               <div class="radio-btn">
-                <input type="radio" value="email" name="email" />
-                <label for="type-of-radio">Email</label>
-                <input type="radio" name="phone" value="phone" />
-                <label for="type-of-radio">Phone</label>
+                
+                <form action="/action_page.php" class="d-flex" style="gap: .3rem;">
+          
+                  <input type="radio" class="mt-sm-1" style="accent-color: red;" id="html" name="fav_language" value="HTML">
+                  <label style="font-size: .8rem;" for="html">Email</label><br>
+                  <input type="radio" class="mt-sm-1" style="accent-color: red;" id="css" name="fav_language" value="CSS">
+                  <label style="font-size: .8rem;" for="css">Phone</label><br>
+                  
+                  <br>  
+                </form>
               </div>
 
               <div class="email-inp">
                 <div class="input-group mb-3">
                   <input
-                    type="text"
+                    type="text" 
+                    style="font-size: .6rem;"
                     class="form-control"
                     placeholder="Email Address"
                     aria-label="Recipient's username"
                     aria-describedby="button-addon2"
+
                   />
                   <button
                     class="btn btn-outline-secondary"
                     type="button"
                     id="button-addon2"
+                    style="padding-left: .9rem; padding-right: .9rem; border: hidden;"
                   >
                     Share App Link
                   </button>
@@ -478,15 +490,15 @@
           <hr />
           <div class="d-flex mt-5 mb-5">
             <div class="col-4">
-              <div class="d-flex align-items-center justify-content-center">
+              <div class="d-flex align-items-center justify-content-center" style="gap: 1rem;">
                 <img
                   src="./images/message-icon.svg"
                   style="height: 1.5rem"
                   alt=""
                 />
                 <div class="c-s-text d-flex flex-column gap-1">
-                  <span style="font-size: 0.8rem; color: #212121">24 X 7</span>
-                  <span style="font-size: 0.8rem; color: #212121"
+                  <span style="font-size: 0.7rem; color: #212121">24 X 7</span>
+                  <span style="font-size: 0.7rem; color: #212121"
                     >CUSTOMER SUPPORT</span
                   >
                 </div>
@@ -494,19 +506,19 @@
             </div>
             <div class="col-4">
               <div
-                class="d-flex align-items-center justify-content-center gap-3"
+                class="d-flex align-items-center justify-content-center" style="gap: 1rem;"
               >
                 <img src="./images/hanger.svg" style="height: 1.5rem" alt="" />
                 <div class="d-s-text d-flex flex-column gap-1">
-                  <span style="font-size: 0.8rem; color: #212121">500+</span>
-                  <span style="font-size: 0.8rem; color: #212121"
+                  <span style="font-size: 0.7rem; color: #212121">500+</span>
+                  <span style="font-size: 0.7rem; color: #212121"
                     >DESIGNERS</span
                   >
                 </div>
               </div>
             </div>
             <div class="col-4">
-              <div class="d-flex align-items-center justify-content-center">
+              <div class="d-flex align-items-center justify-content-center" style="gap: 1rem;"  >
                 <img
                   src="./images/aeroplane.svg"
                   style="height: 1.7rem"
@@ -514,10 +526,10 @@
                 />
 
                 <div class="int-s-text d-flex flex-column">
-                  <span style="font-size: 0.8rem; color: #212121"
+                  <span style="font-size: 0.7rem; color: #212121"
                     >FREE INTERNATIONAL</span
                   >
-                  <span style="font-size: 0.8rem; color: #212121"
+                  <span style="font-size: 0.7rem; color: #212121"
                     >SHIPPING*</span
                   >
                 </div>
@@ -529,7 +541,7 @@
           <div class="d-flex payment-app">
             <div class="col-6 border-end border-1">
               <div class="d-flex align-items-center justify-content-center">
-                <div class="d-flex flex-column gap-2">
+                <div class="d-flex flex-column gap-2 text-center">
                   <h6 class="m-0">
                     <strong>COMPLETELY SAFE AND SECURE PAYMENT METHOD</strong>
                   </h6>
@@ -537,41 +549,47 @@
                     We accept Netbanking, all major credit cards. We also accept
                     orders with cash payment
                   </p>
-                  <div class="d-flex align-items-center justify-content-center">
+                  <div class="d-flex align-items-center justify-content-center" style="gap: .5rem;">
                     <img
                       src="./images/visa-card.svg"
-                      style="width: 3rem; height: 2rem"
+                      style="width: 1.5rem; height: 1rem"
                       alt=""
                     />
                     <img
                       src="./images/master-card.svg"
-                      style="height: 1rem"
+                      style="height: .7rem"
                       alt=""
                     />
                     <img
                       src="./images/paypal.svg"
-                      style="height: 1rem"
+                      style="height: .7rem"
                       alt=""
                     />
+                    
                   </div>
+
                 </div>
               </div>
             </div>
+            
             <div class="col-6">
+            
               <div class="d-flex align-items-center justify-content-center">
                 <div class="d-flex flex-column">
-                  <p class="m-0" style="font-size: 0.8rem">
+                  <p class="m-0" style="font-size: 0.6rem">
                     Sign up to get exclusive style tips, new arrival udpates and
                     a special discount code.
                   </p>
                   <div class="input-group">
                     <input
                       type="text"
+                      style="font-size: .6rem;"
                       class="form-control"
                       placeholder="Here’s my Email"
                       aria-label="Dollar amount (with dot and two decimal places)"
                     />
-                    <span
+                    <button style="background-color: black; font-size: .9rem;" class="pl-3 pr-3">Sign Up</button>
+                    <!-- <span
                       class="input-group-text"
                       style="
                         font-size: 0.6rem;
@@ -579,7 +597,7 @@
                         background-color: black;
                       "
                       ><strong>Sign Up</strong></span
-                    >
+                    > -->
                   </div>
                 </div>
               </div>

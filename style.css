@@ -4,10 +4,11 @@
 
 .nav-item{
   font-size: .7rem;
+  
 }
 
-.all-item{
-  gap: .2rem;
+.all-item li{
+  
 }
 
 * {
@@ -22,12 +23,12 @@ html {
 
 
 .child-img img {
-  width: 5rem;
+  width: 4rem;
 }
 
 .main-img-1 {
-  width: 92%;
-  height: 30rem;
+  width: 15rem;
+  height: 25rem;
   opacity: 1;
 }
 
@@ -120,6 +121,10 @@ li {
   cursor: pointer;
 }
 
+.radio-btn input{
+  color: #e23d3d;
+}
+
 .cart-2{
   border:1px solid rgb(229, 218, 218);
   border-right: 1px solid rgb(199, 174, 174);
@@ -127,8 +132,10 @@ li {
 
 .descriptions {
   padding: 1rem;
+  width: 1475px;
+  height: 238px;
   margin-top: 20px;
-  box-shadow: 0px 1px 3px 1px #888888;
+  box-shadow: 0px 3px 6px #00000014;
 }
 
 .descriptions p {
@@ -146,8 +153,14 @@ li {
   font-size: 1rem;
 }
 .Reviews {
-  box-shadow: 0px 1px 3px 1px #888888;
+  width: 1475px;
+  height: 238px;
+  box-shadow: 0px 3px 6px #00000014;
   padding: 1rem 1rem 0rem 1rem;
+}
+
+.all-details{
+  cursor: pointer;
 }
 .wr-btn p {
   color: #888888;
