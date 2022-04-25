@@ -17,9 +17,7 @@ html {
   overflow-x: hidden;
 }
 
-body{
-  overflow-x: hidden;
-}
+
 
 .header-bar{
   position: sticky;
@@ -159,7 +157,7 @@ li {
 .inr-bio button {
   background-color: #e23d3d;
   border: 1px solid #e2e2e2;
-  width: 7rem;
+  width: 5rem;
   font-size: 0.8rem;
   cursor: pointer;
 }
