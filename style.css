@@ -17,7 +17,9 @@ html {
   overflow-x: hidden;
 }
 
-
+body{
+  overflow-x: hidden;
+}
 
 .header-bar{
   position: sticky;
@@ -157,10 +159,9 @@ li {
 .inr-bio button {
   background-color: #e23d3d;
   border: 1px solid #e2e2e2;
-  width: 1rem !important;
+  width: 7rem;
   font-size: 0.8rem;
   cursor: pointer;
-  /* background-color: black !important; */
 }
 
 .radio-btn input{
