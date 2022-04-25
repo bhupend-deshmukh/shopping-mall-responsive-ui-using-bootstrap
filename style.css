@@ -14,7 +14,9 @@
 }
 html {
   font-size: 1vw;
+  overflow-x: hidden;
 }
+
 
 
 .header-bar{
@@ -286,4 +288,8 @@ li {
 
 .rating-details h5{
   font-size: 1rem;
+}
+
+.all-footer{
+  color: black !important;
 }

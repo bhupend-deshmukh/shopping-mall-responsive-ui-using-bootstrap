@@ -1,263 +1,254 @@
-
-
-@media (max-width: 850px){
-
-  .nav-item{
+@media (max-width: 850px) {
+  .nav-item {
     font-size: 2rem;
     display: none;
-  } 
+  }
 
-  .shopping-text{
+  .shopping-text {
     font-size: 3rem;
   }
 
-  .shopping-text span{
+  .shopping-text span {
     font-size: 3rem !important;
     font-size: 2rem;
   }
 
-  .main-img img{
+  .main-img img {
     width: 25rem;
     height: 40rem;
   }
 
-  .child-img img{
+  .child-img img {
     width: 7rem;
     height: 10rem;
   }
-    .btn{
-    
+  .btn {
     font-size: 1.9rem;
   }
 
-  #home-women-sareess{
+  #home-women-sareess {
     font-size: 1.5rem;
   }
-  .details-product li{
+  .details-product li {
     font-size: 1.3rem;
   }
 
-  .shyam-women h1{
+  .shyam-women h1 {
     font-size: 2.5rem;
   }
 
-
-  .shyam-women li{
+  .shyam-women li {
     font-size: 2rem;
   }
 
-  #by{
+  #by {
     font-size: 1.5rem;
   }
 
-  .price-details li{
+  .price-details li {
     font-size: 2rem;
   }
 
-  .rating-details h5{
+  .rating-details h5 {
     font-size: 2rem;
   }
 
-  .highlight h5{
+  .highlight h5 {
     font-size: 2rem !important;
   }
-  .highlight li{
-      font-size: 2rem;
-      margin-left: 2rem;
+  .highlight li {
+    font-size: 2rem;
+    margin-left: 2rem;
   }
 
-  .si-text{
+  .si-text {
     font-size: 2rem;
   }
 
-  .sizes-btn button{
-    font-size: 2rem ;
+  .sizes-btn button {
+    font-size: 2rem;
   }
 
-  .Sizes h5{
+  .Sizes h5 {
     font-size: 2rem !important;
   }
 
-  .rating p{
+  .rating p {
     font-size: 2rem;
   }
 
-  .rating-star{
+  .rating-star {
     width: 7rem;
   }
 
-  #txt p{
+  #txt p {
     margin-left: -1.5rem;
     font-weight: bold;
     color: black;
   }
 
-  .Other-Sellers h5{
+  .Other-Sellers h5 {
     font-size: 2rem;
     margin-left: 1rem;
   }
 
-  .descriptions{
+  .descriptions {
     height: 15rem;
   }
 
-  .descriptions h4{
+  .descriptions h4 {
     font-size: 2rem;
   }
 
-  .descriptions p{
+  .descriptions p {
     font-size: 1.5rem;
   }
 
-  .Reviews{
+  .Reviews {
     height: 15rem;
   }
 
-  .Reviews h4{
+  .Reviews h4 {
     font-size: 2rem;
   }
 
-  .Reviews p{
+  .Reviews p {
     font-size: 1.5rem;
   }
 
-  .wr-btn button{
+  .wr-btn button {
     font-size: 1.5rem;
   }
 
-  .all-details h6{
+  .all-details h6 {
     font-size: 1.1rem;
   }
 
-  .all-text li{
+  .all-text li {
     font-size: 1rem;
   }
 
   .all-details {
     display: grid;
-    grid-template-columns: repeat(2,1fr);
+    grid-template-columns: repeat(2, 1fr);
   }
 
-  .all-details h6{
+  .all-details h6 {
     font-size: 2.5rem;
   }
 
-  .all-text li{
+  .all-text li {
     font-size: 2.2rem;
   }
 
-  .popupshop{
+  .popupshop {
     display: none;
   }
 
-  .sitesContact img{
+  .sitesContact img {
     width: 3rem !important;
   }
 
-  .sponsor-icons   img{
+  .sponsor-icons img {
     height: 4rem !important;
-    /* gap: 5rem !important; */
   }
 
-  .media-q{
+  .media-q {
     gap: 3rem !important;
-
   }
 
-  .c-s-text,.d-s-text,.int-s-text, span{
+  .c-s-text,
+  .d-s-text,
+  .int-s-text,
+  span {
     font-size: 1.5rem !important;
   }
 
-
-  .payment-app{
+  .payment-app {
     display: none !important;
   }
 
-  .main-table h6{
+  .main-table h6 {
     font-size: 2rem !important;
   }
-  .table-a{
+  .table-a {
     margin-left: -2rem;
   }
 
-  .table-a th,td{
+  .table-a th,
+  td {
     font-size: 1.5rem !important;
   }
 
-  .all-text-Name span,h6{
+  .all-text-Name span,
+  h6 {
     font-size: 2rem !important;
+    display: none !important;
   }
 }
 
-
-
-@media (max-width: 450px){
-
-  .nav-item{
+@media (max-width: 450px) {
+  .nav-item {
     font-size: 2rem;
     display: none;
-  } 
+  }
 
-  .shopping-text{
+  .shopping-text {
     font-size: 5rem;
   }
 
-  #mome-navy{
+  #mome-navy {
     font-size: 2.5rem !important;
     text-align: center;
   }
 
-  .middle-section{
+  .middle-section {
     display: table-row !important;
     text-align: center;
-    
   }
 
-  .img-section{
-    margin-left:18rem !important;
-    /* margin-right: auto !important; */
-    /* background-color: black !important; */
+  .img-section {
+    margin-left: 18rem !important;
   }
 
-  .shopping-text span{
+  .shopping-text span {
     font-size: 5rem !important;
     font-size: 2rem;
   }
 
-  .main-img img{
+  .main-img img {
     width: 27.5rem !important;
     height: 40rem;
   }
 
-  .child-img img{
+  .child-img img {
     width: 7rem;
     height: 10rem;
   }
-    .btn{
-    
+  .btn {
     font-size: 1.9rem;
   }
 
-  #home-women-sareess{
+  #home-women-sareess {
     font-size: 3rem !important;
   }
-  .details-product li{
+  .details-product li {
     font-size: 3rem !important;
   }
 
-  .shyam-women h1{
+  .shyam-women h1 {
     font-size: 3.5rem !important;
   }
 
-  .shyam-women li{
+  .shyam-women li {
     font-size: 3rem !important;
   }
 
-  #by{
+  #by {
     font-size: 1.5rem;
   }
 
-  .price-details li{
+  .price-details li {
     font-size: 2rem;
   }
 
@@ -265,149 +256,190 @@
     font-size: 3.5rem !important;
   }
 
-  .highlight h5{
+  .highlight h5 {
     font-size: 3.5rem !important;
   }
-  .highlight li{
-      font-size: 2rem;
-      margin-left: -1rem;
-      list-style: none !important;
-
+  .highlight li {
+    font-size: 2rem;
+    margin-left: -1rem;
+    list-style: none !important;
   }
 
-  .si-text{
+  .si-text {
     font-size: 2rem;
   }
 
-  .sizes-btn button{
-    font-size: 4rem ;
+  .sizes-btn button {
+    font-size: 4rem;
   }
 
-  .inr-bio button{
+  .inr-bio button {
     font-size: 1.5rem !important;
   }
 
-  .cart-2 p{
-    font-size:3rem !important;
-  }
-
-  .cart-2 span{
-    font-size: 3rem !important;
-  }
-  .Sizes h5{
+  .cart-2 p {
     font-size: 3rem !important;
   }
 
-  .rating{
+  .cart-2 span {
+    font-size: 3rem !important;
+  }
+  .Sizes h5 {
+    font-size: 3rem !important;
+  }
+
+  .rating {
     margin-left: 20rem;
   }
-  .rating p{
+  .rating p {
     font-size: 3rem;
   }
 
-  .rating-star{
+  .rating-star {
     width: 10rem;
   }
 
-  #txt p{
+  #txt p {
     margin-left: -1.5rem;
     font-weight: bold;
     color: black;
   }
 
-  .Other-Sellers h5{
+  .Other-Sellers h5 {
     font-size: 3.5rem;
     margin-left: 2rem;
   }
 
-  .descriptions{
+  .descriptions {
     height: 30rem;
   }
 
-  .descriptions h4{
-
+  .descriptions h4 {
     font-size: 4rem !important;
   }
 
-  .descriptions p{
+  .descriptions p {
     font-size: 2.5rem;
   }
 
-  .Reviews{
+  .Reviews {
     height: 30rem;
   }
 
-  .Reviews h4{
+  .Reviews h4 {
     font-size: 4rem !important;
   }
 
-  .Reviews p{
+  .Reviews p {
     font-size: 2.5rem;
   }
 
-  .wr-btn button{
+  .wr-btn button {
     font-size: 3rem;
   }
 
-  .all-details h6{
+  .all-details h6 {
     font-size: 1.1rem;
   }
 
-  .all-text li{
+  .all-text li {
     font-size: 1rem;
   }
 
   .all-details {
     display: grid;
-    grid-template-columns: repeat(2,1fr);
+    grid-template-columns: repeat(2, 1fr);
   }
 
-  .all-details h6{
+  .all-details h6 {
     font-size: 2.5rem;
   }
 
-  .all-text li{
+  .all-text li {
     font-size: 2.2rem;
   }
 
-  .popupshop{
+  .popupshop {
     display: none;
   }
 
-  .sitesContact img{
+  .sitesContact img {
     width: 3rem !important;
   }
 
-  .sponsor-icons   img{
+  .sponsor-icons img {
     height: 4rem !important;
-    /* gap: 5rem !important; */
   }
 
-  .media-q{
+  .media-q {
     gap: 3rem !important;
-
   }
 
-  .c-s-text,.d-s-text,.int-s-text, span{
+  .c-s-text,
+  .d-s-text,
+  .int-s-text,
+  span {
     font-size: 1.5rem !important;
   }
 
-  .payment-app{
+  .payment-app {
     display: none !important;
   }
 
-  .main-table h6{
+  .main-table h6 {
     font-size: 2rem !important;
   }
-  .table-a{
+  .table-a {
     margin-left: -2rem;
   }
 
-  .table-a th,td{
+  .table-a th,
+  td {
     font-size: 1.5rem !important;
   }
 
-  .all-text-Name span,h6{
+  .all-text-Name span,
+  h6 {
     font-size: 2rem !important;
+    
   }
+
+  .all-text-Name{
+    display: none !important;
+    visibility: hidden; 
+  }
+}
+
+@media (max-width: 375px){
+  .inr-bio button {
+    width: auto !important;
+    font-size: 3rem !important;
+    cursor: pointer;
+    /* margin: 0 !important; */
+  }
+.Other-Sellers h5 {
+  font-size: 2.5rem !important;
+  margin-left: 1rem;
+}
+}
+
+@media (max-width: 1050px){
+  .inr-bio button {
+    width: auto !important;
+    font-size: 1.8rem !important;
+    cursor: pointer;
+    padding: .4rem;
+    /* margin: 0 !important; */
+  }
+  .inr-bio p{
+    font-size: 1rem !important;  
+  }
+.Other-Sellers h5 {
+  font-size: 1.3rem !important;
+  margin-left: 1rem;
+}
+.Other-Sellers h5 {
+  font-size: 1.3rem !important;
+  margin-left: 1rem;
+}
 }

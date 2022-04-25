@@ -319,10 +319,10 @@
                   <div class="inr-bio d-flex mt-3 mr-2 ml-2">
 
                     <h5 class="text-dark font-weight-bold text-nowrap">INR 3052.07</h5>
-                    <button class="text-light ml-5 mb-4">Add to cart</button>
+                    <button class="text-light ml-5 mb-4 text-nowrap">Add to cart</button>
 
                   </div>
-                  <p class="ml-2">
+                  <p class="ml-2 text-nowrap">
                     SOLD BY:<span class="font-weight-bold text-dark"
                       >Itsy Bitsy Pvt Ltd</span
                     >
@@ -332,10 +332,10 @@
                 <div class="cart-2 cart-b-1 col-6">
                   <div class="inr-bio d-flex mt-3 mr-2 ml-2">
                     <h5 class="text-dark font-weight-bold para text-nowrap">INR 3052.07</h5>
-                    <button class="text-light ml-5 mb-4">Add to cart</button>
+                    <button class="text-light ml-5 mb-4 text-nowrap">Add to cart</button>
                   </div>
 
-                  <p class="ml-2">
+                  <p class="ml-2 text-nowrap">
                     SOLD BY:<span class="font-weight-bold text-dark"
                       >Itsy Bitsy Pvt Ltd</span
                     >
@@ -346,10 +346,10 @@
               <div class="cart-2 cart-b-3 col-6">
                 <div class="inr-bio d-flex mt-3 mr-2 ml-2">
                   <h5 class="text-dark font-weight-bold">INR 3052.07</h5>
-                  <button class="text-light ml-5 mb-4">Add to cart</button>
+                  <button class="text-light ml-5 mb-4 text-nowrap">Add to cart</button>
                 </div>
 
-                <p class="ml-2">
+                <p class="ml-2 text-nowrap">
                   SOLD BY:<span class="font-weight-bold text-dark"
                     >Itsy Bitsy Pvt Ltd</span
                   >
@@ -385,7 +385,7 @@
       
       <div class="container all-footer mt-5">
         <div class="all-details row">
-          <div class="col-2">
+          <div class="col-2 my-5 text-nowrap">
             <div class="aboutus">
               <h6><strong>ABOUT US</strong></h6>
               <ul class="all-text list-unstyled">
@@ -397,7 +397,7 @@
               </ul>
             </div>
           </div>
-          <div class="col-2">
+          <div class="col-2 my-5 text-nowrap">
             <div class="quicklinks">
               <h6><strong>QUICK LINKS</strong></h6>
               <ul class="all-text list-unstyled">
@@ -412,9 +412,9 @@
               </ul>
             </div>
           </div>
-          <div class="col-2">
+          <div class="col-2 text-nowrap">
             <div class="customercare">
-              <h6><strong>CUSTOMER CARE</strong></h6>
+              <h6><strong class="text-dark">CUSTOMER CARE</strong></h6>
               <ul class="all-text list-unstyled">
                 <li>SHIPPING INFORMATION</li>
                 <li>RETURNS & EXCHANGE</li>
@@ -441,64 +441,65 @@
               </div>
             </div>
           </div>
-        </div>
-        <div class="col-3 applications">
-          <div class="d-flex justify-content-center align-items-center">
-            <div class="popupshop">
-              <h6><strong>GET PERNIA’S POP-UP SHOP APP</strong></h6>
-              <ul class="all-text list-unstyled">
-                <li>
-                  We will send you a link on your Email or <br />
-                  Phone, open it on your phone and <br />
-                  download the App
-                </li>
-              </ul>
-              
-              <!-- <hr> -->
-
-              <div class="radio-btn">
+          <div class="col-3 applications">
+            <div class="d-flex justify-content-center align-items-center">
+              <div class="popupshop">
+                <h6><strong>GET PERNIA’S POP-UP SHOP APP</strong></h6>
+                <ul class="all-text list-unstyled">
+                  <li>
+                    We will send you a link on your Email or <br />
+                    Phone, open it on your phone and <br />
+                    download the App
+                  </li>
+                </ul>
                 
-                <form action="/action_page.php" class="d-flex" style="gap: .3rem;">
-          
-                  <input type="radio" class="mt-sm-1" style="accent-color: red;" id="html" name="fav_language" value="HTML">
-                  <label style="font-size: .8rem;" for="html">Email</label><br>
-                  <input type="radio" class="mt-sm-1" style="accent-color: red;" id="css" name="fav_language" value="CSS">
-                  <label style="font-size: .8rem;" for="css">Phone</label><br>
+                <!-- <hr> -->
+  
+                <div class="radio-btn">
                   
-                  <br>  
-                </form>
-              </div>
-
-              <div class="email-inp">
-                <div class="input-group mb-3">
-                  <input
-                    type="text" 
-                    style="font-size: .6rem;"
-                    class="form-control"
-                    placeholder="Email Address"
-                    aria-label="Recipient's username"
-                    aria-describedby="button-addon2"
-
+                  <form action="/action_page.php" class="d-flex" style="gap: .3rem;">
+            
+                    <input type="radio" class="mt-sm-1" style="accent-color: red;" id="html" name="fav_language" value="HTML">
+                    <label style="font-size: .8rem;" for="html">Email</label><br>
+                    <input type="radio" class="mt-sm-1" style="accent-color: red;" id="css" name="fav_language" value="CSS">
+                    <label style="font-size: .8rem;" for="css">Phone</label><br>
+                    
+                    <br>  
+                  </form>
+                </div>
+  
+                <div class="email-inp">
+                  <div class="input-group mb-3">
+                    <input
+                      type="text" 
+                      style="font-size: .6rem;"
+                      class="form-control"
+                      placeholder="Email Address"
+                      aria-label="Recipient's username"
+                      aria-describedby="button-addon2"
+  
+                    />
+                    <button style="background-color: black; font-size: .5rem;" class="pl-2 pr-2">Share App Link</button>
+  
+                  </div>
+                </div>
+                <div class="appGoogle my-5">
+                  <img
+                    src="./images/apple.svg"
+                    style="width: 6rem; height: 2rem"
+                    alt=""
                   />
-                  <button style="background-color: black; font-size: .5rem;" class="pl-2 pr-2">Share App Link</button>
-
+                  <img
+                    src="./images/play.svg"
+                    style="width: 6rem; height: 2rem"
+                    alt=""
+                  />
                 </div>
               </div>
-              <div class="appGoogle my-5">
-                <img
-                  src="./images/apple.svg"
-                  style="width: 6rem; height: 2rem"
-                  alt=""
-                />
-                <img
-                  src="./images/play.svg"
-                  style="width: 6rem; height: 2rem"
-                  alt=""
-                />
-              </div>
             </div>
-          </div>
+          </div>  
         </div>
+        
 
         <div class="container sponsor-icons">
           <hr />
