@@ -401,45 +401,69 @@
   .all-text-Name span,
   h6 {
     font-size: 2rem !important;
-    
   }
 
-  .all-text-Name{
+  .all-text-Name {
     display: none !important;
-    visibility: hidden; 
+    visibility: hidden;
   }
 }
 
-@media (max-width: 375px){
+@media (max-width: 375px) {
   .inr-bio button {
     width: auto !important;
     font-size: 3rem !important;
     cursor: pointer;
     /* margin: 0 !important; */
   }
-.Other-Sellers h5 {
-  font-size: 2.5rem !important;
-  margin-left: 1rem;
+  .Other-Sellers h5 {
+    font-size: 2.5rem !important;
+    margin-left: 1rem;
+  }
 }
+@media (max-width: 600px) {
+  .inr-bio button {
+    width: auto !important;
+    font-size: 3rem !important;
+    cursor: pointer;
+  }
+  .Other-Sellers h5 {
+    font-size: 2.5rem !important;
+    margin-left: 1rem;
+  }
+  
 }
 
-@media (max-width: 1050px){
+@media (max-width: 750px) {
+  .inr-bio button {
+    width: auto !important;
+    font-size: 3rem !important;
+    cursor: pointer;
+    /* margin: 0 !important; */
+  }
+  .Other-Sellers h5 {
+    font-size: 4rem !important;
+    margin-left: 1rem;
+  }
+}
+
+@media (max-width: 1050px) {
   .inr-bio button {
     width: auto !important;
     font-size: 1.8rem !important;
     cursor: pointer;
-    padding: .4rem;
+    padding: 0.4rem;
     /* margin: 0 !important; */
   }
-  .inr-bio p{
-    font-size: 1rem !important;  
+  .inr-bio p {
+    font-size: 1rem !important;
   }
-.Other-Sellers h5 {
-  font-size: 1.3rem !important;
-  margin-left: 1rem;
-}
-.Other-Sellers h5 {
-  font-size: 1.3rem !important;
-  margin-left: 1rem;
-}
+  .Other-Sellers h5 {
+    font-size: 1.3rem !important;
+    margin-left: 1rem;
+  }
+  .Other-Sellers h5 {
+    font-size: 1.3rem !important;
+    margin-left: 1rem;
+  }
 }
