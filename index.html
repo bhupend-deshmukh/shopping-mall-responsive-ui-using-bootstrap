@@ -16,6 +16,7 @@
       crossorigin="anonymous"
     />
     <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="quries.css">
     <!-- Primary Meta Tags -->
     <title>responsive mobile ui</title>
     <meta name="title" content="responsive mobile ui" />
@@ -67,9 +68,9 @@
 
         <nav class="navbar navbar-expand-lg p-0 navbar-light">
           
-          <span style="font-size: 1.7rem;font-weight: 600;"
-          >Shopp<span style="color:#E83647;text-decoration: underline;">ind</span>
-        </span>
+          <p class="shopping-text" 
+          >Shopp<span>ind</span>
+        </p>
         <button
           class="navbar-toggler"
           type="button"
@@ -206,7 +207,7 @@
         <!-- <h1 style="text-align: center; border: 2px solid black; padding: 1.2rem 0; background-color:black; color: white;">00:21:08</h1>  -->
         <h1 class="text-white mt-1 px-4">80% OFF</h1>
       </div>
-      <p style="font-size: 0.7rem; color: #797979">
+      <p id="mome-navy" style="font-size: 0.7rem; color: #797979">
         Home > Navy Blue & Red Thread Embroidered Anarkali Set
       </p>
 
@@ -260,11 +261,11 @@
           </div>
         </div>
         <div class="details-product">
-          <p class="home-women-sareess">Home > Women > Sarees</p>
+          <p id="home-women-sareess">Home > Women > Sarees</p>
           <ul class="shyam-women" style="list-style: none;">
             <h1>SHYAM NARAYAN PRASAD</h1>
 
-            <li class="text-dark font-weight-bold">
+            <li class=" text-dark font-weight-bold">
               by : <span id="by">Itsy Bitsy Pvt Ltd</span>
             </li>
             <li class="text-dark font-weight-bold">Stock:77</li>
@@ -275,6 +276,7 @@
             <li>M.R.P.: <del>₹23,500</del></li>
             <li>Price: <span id="price-m">₹15,500</span></li>
             <li>You save: <span id="you-save">₹5.50</span></li>
+
           </ul>
           <hr />
           <div class="Sizes">
@@ -287,10 +289,10 @@
               <button class="text-dark pl-3 pr-3">44</button>
             </div>
           </div>
-          <hr />
+          <hr/>
 
           <ul class="highlight ml-3">
-            <h5 class="highlight-text font-weight-bold" style="font-size: 1rem">
+            <h5 class="highlight-text font-weight-bold" style="font-size: 1rem; margin-left: -1rem;">
               Highlights:
             </h5>
             <li>Classic Collar</li>
@@ -302,7 +304,7 @@
           </ul>
           <hr />
           <div class="rating-details">
-            <h5 class="font-weight-bold" style="font-size: 15px">Seller</h5>
+            <h5 class="font-weight-bold">Seller</h5>
             <div class="rating d-flex">
               <p class="text-dark">Itsy Bitsy Pvt Ltd</p>
               <p class="rating-star text-center">0.0 ★</p>
@@ -315,8 +317,10 @@
               <div class="inr-cart d-flex mr-1">
                 <div class="cart-2 cart-b-1 col-6">
                   <div class="inr-bio d-flex mt-3 mr-2 ml-2">
-                    <h5 class="text-dark font-weight-bold">INR 3052.07</h5>
+
+                    <h5 class="text-dark font-weight-bold text-nowrap">INR 3052.07</h5>
                     <button class="text-light ml-5 mb-4">Add to cart</button>
+
                   </div>
                   <p class="ml-2">
                     SOLD BY:<span class="font-weight-bold text-dark"
@@ -327,7 +331,7 @@
 
                 <div class="cart-2 cart-b-1 col-6">
                   <div class="inr-bio d-flex mt-3 mr-2 ml-2">
-                    <h5 class="text-dark font-weight-bold para">INR 3052.07</h5>
+                    <h5 class="text-dark font-weight-bold para text-nowrap">INR 3052.07</h5>
                     <button class="text-light ml-5 mb-4">Add to cart</button>
                   </div>
 
@@ -437,308 +441,309 @@
               </div>
             </div>
           </div>
-          <div class="col-3 applications">
-            <div class="d-flex justify-content-center align-items-center">
-              <div class="popupshop">
-                <h6><strong>GET PERNIA’S POP-UP SHOP APP</strong></h6>
-                <ul class="all-text list-unstyled">
-                  <li>
-                    We will send you a link on your Email or <br />
-                    Phone, open it on your phone and <br />
-                    download the App
-                  </li>
-                </ul>
+        </div>
+        <div class="col-3 applications">
+          <div class="d-flex justify-content-center align-items-center">
+            <div class="popupshop">
+              <h6><strong>GET PERNIA’S POP-UP SHOP APP</strong></h6>
+              <ul class="all-text list-unstyled">
+                <li>
+                  We will send you a link on your Email or <br />
+                  Phone, open it on your phone and <br />
+                  download the App
+                </li>
+              </ul>
+              
+              <!-- <hr> -->
+
+              <div class="radio-btn">
                 
-                <!-- <hr> -->
-
-                <div class="radio-btn">
+                <form action="/action_page.php" class="d-flex" style="gap: .3rem;">
+          
+                  <input type="radio" class="mt-sm-1" style="accent-color: red;" id="html" name="fav_language" value="HTML">
+                  <label style="font-size: .8rem;" for="html">Email</label><br>
+                  <input type="radio" class="mt-sm-1" style="accent-color: red;" id="css" name="fav_language" value="CSS">
+                  <label style="font-size: .8rem;" for="css">Phone</label><br>
                   
-                  <form action="/action_page.php" class="d-flex" style="gap: .3rem;">
-            
-                    <input type="radio" class="mt-sm-1" style="accent-color: red;" id="html" name="fav_language" value="HTML">
-                    <label style="font-size: .8rem;" for="html">Email</label><br>
-                    <input type="radio" class="mt-sm-1" style="accent-color: red;" id="css" name="fav_language" value="CSS">
-                    <label style="font-size: .8rem;" for="css">Phone</label><br>
-                    
-                    <br>  
-                  </form>
-                </div>
+                  <br>  
+                </form>
+              </div>
 
-                <div class="email-inp">
-                  <div class="input-group mb-3">
-                    <input
-                      type="text" 
-                      style="font-size: .6rem;"
-                      class="form-control"
-                      placeholder="Email Address"
-                      aria-label="Recipient's username"
-                      aria-describedby="button-addon2"
+              <div class="email-inp">
+                <div class="input-group mb-3">
+                  <input
+                    type="text" 
+                    style="font-size: .6rem;"
+                    class="form-control"
+                    placeholder="Email Address"
+                    aria-label="Recipient's username"
+                    aria-describedby="button-addon2"
 
-                    />
-                    <button style="background-color: black; font-size: .5rem;" class="pl-2 pr-2">Share App Link</button>
-
-                  </div>
-                </div>
-                <div class="appGoogle my-5">
-                  <img
-                    src="./images/apple.svg"
-                    style="width: 6rem; height: 2rem"
-                    alt=""
                   />
-                  <img
-                    src="./images/play.svg"
-                    style="width: 6rem; height: 2rem"
-                    alt=""
-                  />
-                </div>
-              </div>
-            </div>
-          </div>
+                  <button style="background-color: black; font-size: .5rem;" class="pl-2 pr-2">Share App Link</button>
 
-          <div class="container sponsor-icons">
-            <hr />
-            <div class="d-flex mt-5 mb-5">
-              <div class="col-4">
-                <div class="d-flex align-items-center justify-content-center" style="gap: 1rem;">
-                  <img
-                    src="./images/message-icon.svg"
-                    style="height: 1.5rem"
-                    alt=""
-                  />
-                  <div class="c-s-text d-flex flex-column gap-1">
-                    <span style="font-size: 0.7rem; color: #212121">24 X 7</span>
-                    <span style="font-size: 0.7rem; color: #212121"
-                      >CUSTOMER SUPPORT</span
-                    >
-                  </div>
                 </div>
               </div>
-              <div class="col-4">
-                <div
-                  class="d-flex align-items-center justify-content-center" style="gap: 1rem;"
-                >
-                  <img src="./images/hanger.svg" style="height: 1.5rem" alt="" />
-                  <div class="d-s-text d-flex flex-column gap-1">
-                    <span style="font-size: 0.7rem; color: #212121">500+</span>
-                    <span style="font-size: 0.7rem; color: #212121"
-                      >DESIGNERS</span
-                    >
-                  </div>
-                </div>
+              <div class="appGoogle my-5">
+                <img
+                  src="./images/apple.svg"
+                  style="width: 6rem; height: 2rem"
+                  alt=""
+                />
+                <img
+                  src="./images/play.svg"
+                  style="width: 6rem; height: 2rem"
+                  alt=""
+                />
               </div>
-              <div class="col-4">
-                <div class="d-flex align-items-center justify-content-center" style="gap: 1rem;"  >
-                  <img
-                    src="./images/aeroplane.svg"
-                    style="height: 1.7rem"
-                    alt=""
-                  />
-
-                  <div class="int-s-text d-flex flex-column">
-                    <span style="font-size: 0.7rem; color: #212121"
-                      >FREE INTERNATIONAL</span
-                    >
-                    <span style="font-size: 0.7rem; color: #212121"
-                      >SHIPPING*</span
-                    >
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="container-fluid sign-sections mt-5">
-            <div class="d-flex payment-app">
-              <div class="col-6 border-end border-1">
-                <div class="d-flex align-items-center justify-content-center">
-                  <div class="d-flex flex-column gap-2 text-center">
-                    <h6 class="m-0">
-                      <strong>COMPLETELY SAFE AND SECURE PAYMENT METHOD</strong>
-                    </h6>
-                    <p class="m-0" style="font-size: 0.8rem">
-                      We accept Netbanking, all major credit cards. We also accept
-                      orders with cash payment
-                    </p>
-                    <div class="d-flex align-items-center justify-content-center" style="gap: .5rem;">
-                      <img
-                        src="./images/visa-card.svg"
-                        style="width: 1.5rem; height: 1rem"
-                        alt=""
-                      />
-                      <img
-                        src="./images/master-card.svg"
-                        style="height: .7rem"
-                        alt=""
-                      />
-                      <img
-                        src="./images/paypal.svg"
-                        style="height: .7rem"
-                        alt=""
-                      />
-                      
-                    </div>
-
-                  </div>
-                </div>
-              </div>
-              
-              <div class="col-6">
-              
-                <div class="d-flex align-items-center justify-content-center">
-                  <div class="d-flex flex-column">
-                    <p class="m-0" style="font-size: 0.6rem">
-                      Sign up to get exclusive style tips, new arrival udpates and
-                      a special discount code.
-                    </p>
-                    <div class="input-group">
-                      <input
-                        type="text"
-                        style="font-size: .6rem;"
-                        class="form-control"
-                        placeholder="Here’s my Email"
-                        aria-label="Dollar amount (with dot and two decimal places)"
-                      />
-                      <button style="background-color: black; font-size: .9rem;" class="pl-3 pr-3">Sign Up</button>
-                      <!-- <span
-                        class="input-group-text"
-                        style="
-                          font-size: 0.6rem;
-                          color: #ffff;
-                          background-color: black;
-                        "
-                        ><strong>Sign Up</strong></span
-                      > -->
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="container main-table mt-5">
-            <h6 style="font-size: 0.7rem">
-              <strong>Designer SALE price list</strong>
-            </h6>
-            <div class="col-xl-6 col-sm-12">
-              <table class="table-a table-bordered">
-                <thead>
-                  <tr>
-                    <th style="font-size: 0.7rem; text-align: center">
-                      Designer Sale
-                    </th>
-                    <th style="font-size: 0.7rem; text-align: center">
-                      Designer
-                    </th>
-                    <th class="head-col" style="font-size: 0.7rem">
-                      Designer SALE with Price List
-                    </th>
-                  </tr>
-                </thead>
-                <tbody>
-                  <tr>
-                    <td class="td-txt">Gold Plated Zircon and Jade Stone Ring</td>
-                    <td class="td-txt">Belsi's Jewellery</td>
-                    <td class="td-txt">1080</td>
-                  </tr>
-                  <tr>
-                    <td class="td-txt">Blue nest ring</td>
-                    <td class="td-txt">Sonnet Jewellery</td>
-                    <td class="td-txt">1250</td>
-                  </tr>
-                  <tr>
-                    <td class="td-txt">
-                      Gold Plated Zircon,Aqua Chalcedony and Jade Stone Double
-                      Finger Ring
-                    </td>
-                    <td class="td-txt">Belsi's Jewellery</td>
-                    <td class="td-txt">1225</td>
-                  </tr>
-                </tbody>
-              </table>
-            </div>
-          </div>
-          <div class="col-12 d-flex flex-column my-3 all-bio-footer">
-            <div class="all-text-Name">
-              <h6 class="m-0" style="font-size: 0.8rem">
-                Top Designers for clothing
-              </h6>
-              <span>Manish Malhatra&nbsp;&nbsp;|</span>
-              <span>Anita Dongre&nbsp;&nbsp;|</span>
-              <span>Payal Singhal&nbsp;&nbsp;|</span>
-              <span>Gaurav Gupta&nbsp;&nbsp;|</span>
-              <span>Rohit Gandhi Rahul Khanna</span>
-              <span>Ashima Leena&nbsp;&nbsp;|</span>
-              <span>Nikasha&nbsp;&nbsp;|</span>
-              <span>J J Valaya&nbsp;&nbsp;|</span>
-              <span>Varun Bah&nbsp;&nbsp;|</span>
-              <span>Neeta Lulla&nbsp;&nbsp;|</span>
-              <span>Nishka Lulla&nbsp;&nbsp;|</span>
-              <span>Amit Aggarwal&nbsp;&nbsp;|</span>
-              <span>Nachiket Barve&nbsp;&nbsp;|</span>
-              <span>Namrata Joshipura&nbsp;&nbsp;|</span>
-              <span>Bhumika Sharma&nbsp;&nbsp;|</span>
-              <span>Samant Chauhan&nbsp;&nbsp;|</span>
-              <span>Priyanka Jain&nbsp;&nbsp;|</span>
-              <span>Soup by Sougat Paul&nbsp;&nbsp;|</span>
-              <span>Surendri by Yogesh Chaudhary&nbsp;&nbsp;|</span>
-              <span>Gopi Vaid&nbsp;&nbsp;|</span>
-            </div>
-            <div class="all-text-Name">
-              <h6 class="m-0" style="font-size: 0.8rem">
-                Top designers for Accessories
-              </h6>
-              <span>Bhumika Sharma&nbsp;&nbsp;|</span>
-              <span>Samant Chauhan&nbsp;&nbsp;|</span>
-              <span>Priyanka Jain&nbsp;&nbsp;|</span>
-              <span>Soup by Sougat Paul&nbsp;&nbsp;|</span>
-              <span>Surendri by Yogesh Chaudhary&nbsp;&nbsp;|</span>
-              <span>Gopi Vaid&nbsp;&nbsp;|</span>
-              <span>Masaba</span>
-            </div>
-            <div class="all-text-Name">
-              <h6 class="m-0" style="font-size: 0.8rem">
-                Top Categories in Clothing
-              </h6>
-              <span>Manish Malhatra&nbsp;&nbsp;|</span>
-              <span>Anita Dongre&nbsp;&nbsp;|</span>
-              <span>Payal Singhal&nbsp;&nbsp;|</span>
-              <span>Gaurav Gupta&nbsp;&nbsp;|</span>
-              <span>Rohit Gandhi Rahul Khanna&nbsp;&nbsp;|</span>
-              <span>Ashima Leena&nbsp;&nbsp;|</span>
-              <span>Nikasha&nbsp;&nbsp;|</span>
-              <span>J J Valaya&nbsp;&nbsp;|</span>
-              <span>Varun Bah&nbsp;&nbsp;|</span>
-              <span>Neeta Lulla&nbsp;&nbsp;|</span>
-              <span>Nishka Lulla&nbsp;&nbsp;|</span>
-              <span>Amit Aggarwal&nbsp;&nbsp;|</span>
-              <span>Nachiket Barve&nbsp;&nbsp;|</span>
-              <span>Namrata Joshipura&nbsp;&nbsp;|</span>
-              <span>Bhumika Sharma&nbsp;&nbsp;|</span>
-              <span>Samant Chauhan&nbsp;&nbsp;|</span>
-              <span>Priyanka Jain&nbsp;&nbsp;|</span>
-              <span>Soup by Sougat Paul&nbsp;&nbsp;|</span>
-              <span>Surendri by Yogesh Chaudhary&nbsp;&nbsp;|</span>
-              <span>Gopi Vaid&nbsp;&nbsp;|</span>
-              <span>Masaba</span>
-            </div>
-            <div class="all-text-Name">
-              <h6 class="m-0" style="font-size: 0.8rem">
-                Top Categories in Jewellery and Accessories
-              </h6>
-              <span>Manish Malhatra&nbsp;&nbsp;|</span>
-              <span>Anita Dongre&nbsp;&nbsp;|</span>
-              <span>Payal Singhal&nbsp;&nbsp;|</span>
-              <span>Gaurav Gupta&nbsp;&nbsp;|</span>
-              <span>Rohit Gandhi Rahul Khanna&nbsp;&nbsp;|</span>
-              <span>Ashima Leena&nbsp;&nbsp;|</span>
-              <span>Nikasha&nbsp;&nbsp;|</span>
-              <span>J J Valaya&nbsp;&nbsp;|</span>
-              <span>Varun Bah&nbsp;&nbsp;|</span>
-              <span>Neeta Lulla&nbsp;&nbsp;|</span>
-              <span>Nishka Lulla&nbsp;&nbsp;|</span>
-              <span>Amit Aggarwal&nbsp;&nbsp;|</span>
-              <span>Nachiket Barve&nbsp;&nbsp;|</span>
             </div>
           </div>
         </div>
+
+        <div class="container sponsor-icons">
+          <hr />
+          <div class="d-flex mt-5 mb-5">
+            <div class="col-4">
+              <div class="media-q d-flex align-items-center justify-content-center" style="gap: 1rem;">
+                <img
+                  src="./images/message-icon.svg"
+                  style="height: 1.5rem"
+                  alt=""
+                />
+                <div class="c-s-text d-flex flex-column gap-1">
+                  <span style="font-size: 0.7rem; color: #212121">24 X 7</span>
+                  <span style="font-size: 0.7rem; color: #212121"
+                    >CUSTOMER SUPPORT</span
+                  >
+                </div>
+              </div>
+            </div>
+            <div class="col-4">
+              <div
+                class="media-q d-flex align-items-center justify-content-center" style="gap: 1rem;"
+              >
+                <img src="./images/hanger.svg" style="height: 1.5rem" alt="" />
+                <div class="d-s-text d-flex flex-column gap-1">
+                  <span style="font-size: 0.7rem; color: #212121">500+</span>
+                  <span style="font-size: 0.7rem; color: #212121"
+                    >DESIGNERS</span
+                  >
+                </div>
+              </div>
+            </div>
+            <div class="col-4">
+              <div class="media-q d-flex align-items-center justify-content-center" style="gap: 1rem;">
+                <img
+                  src="./images/aeroplane.svg"
+                  style="height: 1.7rem"
+                  alt=""
+                />
+
+                <div class="int-s-text d-flex flex-column">
+                  <span style="font-size: 0.7rem; color: #212121"
+                    >FREE INTERNATIONAL</span
+                  >
+                  <span style="font-size: 0.7rem; color: #212121"
+                    >SHIPPING*</span
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="container-fluid sign-sections mt-5">
+          <div class="d-flex payment-app">
+            <div class="col-6 border-end border-1">
+              <div class="d-flex align-items-center justify-content-center">
+                <div class="d-flex flex-column gap-2 text-center">
+                  <h6 class="m-0">
+                    <strong>COMPLETELY SAFE AND SECURE PAYMENT METHOD</strong>
+                  </h6>
+                  <p class="m-0" style="font-size: 0.8rem">
+                    We accept Netbanking, all major credit cards. We also accept
+                    orders with cash payment
+                  </p>
+                  <div class="d-flex align-items-center justify-content-center" style="gap: .5rem;">
+                    <img
+                      src="./images/visa-card.svg"
+                      style="width: 1.5rem; height: 1rem"
+                      alt=""
+                    />
+                    <img
+                      src="./images/master-card.svg"
+                      style="height: .7rem"
+                      alt=""
+                    />
+                    <img
+                      src="./images/paypal.svg"
+                      style="height: .7rem"
+                      alt=""
+                    />
+                    
+                  </div>
+
+                </div>
+              </div>
+            </div>
+            
+            <div class="col-6">
+            
+              <div class="d-flex align-items-center justify-content-center">
+                <div class="d-flex flex-column">
+                  <p class="m-0" style="font-size: 0.6rem">
+                    Sign up to get exclusive style tips, new arrival udpates and
+                    a special discount code.
+                  </p>
+                  <div class="input-group">
+                    <input
+                      type="text"
+                      style="font-size: .6rem;"
+                      class="form-control"
+                      placeholder="Here’s my Email"
+                      aria-label="Dollar amount (with dot and two decimal places)"
+                    />
+                    <button style="background-color: black; font-size: .9rem;" class="pl-3 pr-3">Sign Up</button>
+                    <!-- <span
+                      class="input-group-text"
+                      style="
+                        font-size: 0.6rem;
+                        color: #ffff;
+                        background-color: black;
+                      "
+                      ><strong>Sign Up</strong></span
+                    > -->
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="container main-table mt-5">
+          <h6 style="font-size: 0.7rem">
+            <strong>Designer SALE price list</strong>
+          </h6>
+          <div class="col-xl-6 col-sm-12">
+            <table class="table-a table-bordered">
+              <thead>
+                <tr>
+                  <th style="font-size: 0.7rem; text-align: center">
+                    Designer Sale
+                  </th>
+                  <th style="font-size: 0.7rem; text-align: center">
+                    Designer
+                  </th>
+                  <th class="head-col" style="font-size: 0.7rem">
+                    Designer SALE with Price List
+                  </th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td class="td-txt">Gold Plated Zircon and Jade Stone Ring</td>
+                  <td class="td-txt">Belsi's Jewellery</td>
+                  <td class="td-txt">1080</td>
+                </tr>
+                <tr>
+                  <td class="td-txt">Blue nest ring</td>
+                  <td class="td-txt">Sonnet Jewellery</td>
+                  <td class="td-txt">1250</td>
+                </tr>
+                <tr>
+                  <td class="td-txt">
+                    Gold Plated Zircon,Aqua Chalcedony and Jade Stone Double
+                    Finger Ring
+                  </td>
+                  <td class="td-txt">Belsi's Jewellery</td>
+                  <td class="td-txt">1225</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+        <div class="col-12 d-flex flex-column my-3 all-bio-footer">
+          <div class="all-text-Name">
+            <h6 class="m-0" style="font-size: 0.8rem">
+              Top Designers for clothing
+            </h6>
+            <span>Manish Malhatra&nbsp;&nbsp;|</span>
+            <span>Anita Dongre&nbsp;&nbsp;|</span>
+            <span>Payal Singhal&nbsp;&nbsp;|</span>
+            <span>Gaurav Gupta&nbsp;&nbsp;|</span>
+            <span>Rohit Gandhi Rahul Khanna</span>
+            <span>Ashima Leena&nbsp;&nbsp;|</span>
+            <span>Nikasha&nbsp;&nbsp;|</span>
+            <span>J J Valaya&nbsp;&nbsp;|</span>
+            <span>Varun Bah&nbsp;&nbsp;|</span>
+            <span>Neeta Lulla&nbsp;&nbsp;|</span>
+            <span>Nishka Lulla&nbsp;&nbsp;|</span>
+            <span>Amit Aggarwal&nbsp;&nbsp;|</span>
+            <span>Nachiket Barve&nbsp;&nbsp;|</span>
+            <span>Namrata Joshipura&nbsp;&nbsp;|</span>
+            <span>Bhumika Sharma&nbsp;&nbsp;|</span>
+            <span>Samant Chauhan&nbsp;&nbsp;|</span>
+            <span>Priyanka Jain&nbsp;&nbsp;|</span>
+            <span>Soup by Sougat Paul&nbsp;&nbsp;|</span>
+            <span>Surendri by Yogesh Chaudhary&nbsp;&nbsp;|</span>
+            <span>Gopi Vaid&nbsp;&nbsp;|</span>
+          </div>
+          <div class="all-text-Name">
+            <h6 class="m-0" style="font-size: 0.8rem">
+              Top designers for Accessories
+            </h6>
+            <span>Bhumika Sharma&nbsp;&nbsp;|</span>
+            <span>Samant Chauhan&nbsp;&nbsp;|</span>
+            <span>Priyanka Jain&nbsp;&nbsp;|</span>
+            <span>Soup by Sougat Paul&nbsp;&nbsp;|</span>
+            <span>Surendri by Yogesh Chaudhary&nbsp;&nbsp;|</span>
+            <span>Gopi Vaid&nbsp;&nbsp;|</span>
+            <span>Masaba</span>
+          </div>
+          <div class="all-text-Name">
+            <h6 class="m-0" style="font-size: 0.8rem">
+              Top Categories in Clothing
+            </h6>
+            <span>Manish Malhatra&nbsp;&nbsp;|</span>
+            <span>Anita Dongre&nbsp;&nbsp;|</span>
+            <span>Payal Singhal&nbsp;&nbsp;|</span>
+            <span>Gaurav Gupta&nbsp;&nbsp;|</span>
+            <span>Rohit Gandhi Rahul Khanna&nbsp;&nbsp;|</span>
+            <span>Ashima Leena&nbsp;&nbsp;|</span>
+            <span>Nikasha&nbsp;&nbsp;|</span>
+            <span>J J Valaya&nbsp;&nbsp;|</span>
+            <span>Varun Bah&nbsp;&nbsp;|</span>
+            <span>Neeta Lulla&nbsp;&nbsp;|</span>
+            <span>Nishka Lulla&nbsp;&nbsp;|</span>
+            <span>Amit Aggarwal&nbsp;&nbsp;|</span>
+            <span>Nachiket Barve&nbsp;&nbsp;|</span>
+            <span>Namrata Joshipura&nbsp;&nbsp;|</span>
+            <span>Bhumika Sharma&nbsp;&nbsp;|</span>
+            <span>Samant Chauhan&nbsp;&nbsp;|</span>
+            <span>Priyanka Jain&nbsp;&nbsp;|</span>
+            <span>Soup by Sougat Paul&nbsp;&nbsp;|</span>
+            <span>Surendri by Yogesh Chaudhary&nbsp;&nbsp;|</span>
+            <span>Gopi Vaid&nbsp;&nbsp;|</span>
+            <span>Masaba</span>
+          </div>
+          <div class="all-text-Name">
+            <h6 class="m-0" style="font-size: 0.8rem">
+              Top Categories in Jewellery and Accessories
+            </h6>
+            <span>Manish Malhatra&nbsp;&nbsp;|</span>
+            <span>Anita Dongre&nbsp;&nbsp;|</span>
+            <span>Payal Singhal&nbsp;&nbsp;|</span>
+            <span>Gaurav Gupta&nbsp;&nbsp;|</span>
+            <span>Rohit Gandhi Rahul Khanna&nbsp;&nbsp;|</span>
+            <span>Ashima Leena&nbsp;&nbsp;|</span>
+            <span>Nikasha&nbsp;&nbsp;|</span>
+            <span>J J Valaya&nbsp;&nbsp;|</span>
+            <span>Varun Bah&nbsp;&nbsp;|</span>
+            <span>Neeta Lulla&nbsp;&nbsp;|</span>
+            <span>Nishka Lulla&nbsp;&nbsp;|</span>
+            <span>Amit Aggarwal&nbsp;&nbsp;|</span>
+            <span>Nachiket Barve&nbsp;&nbsp;|</span>
+          </div>
+        </div>
+        
       </div>
     </div>
   </main>

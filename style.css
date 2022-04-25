@@ -72,7 +72,7 @@ html {
   background-color: #e23d3d;
 }
 
-.home-women-sareess {
+#home-women-sareess {
   font-size: 15px;
   color: #797979;
 }
@@ -121,7 +121,10 @@ html {
   background-color: #e23d3d;
 }
 
-.highlight-text {
+#txt{
+  font-size: 1rem;
+  font-weight: 600;
+  color: black;
   margin-left: -1rem;
 }
 
@@ -146,7 +149,8 @@ li {
 }
 
 .inr-bio h5{
-  font-size: 1rem;
+  font-size: 1rem !important;
+  ;
 }
 .inr-bio button {
   background-color: #e23d3d;
@@ -268,4 +272,18 @@ li {
 
 .all-bio-footer{
   gap: 1rem;
+}
+
+.shopping-text{
+  font-size: 1.9rem;
+  font-weight: 600;
+}
+
+.shopping-text span{
+  color:#E83647;
+  text-decoration: underline;
+}
+
+.rating-details h5{
+  font-size: 1rem;
 }
