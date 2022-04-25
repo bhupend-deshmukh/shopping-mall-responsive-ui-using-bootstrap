@@ -160,7 +160,7 @@ li {
   width: 1rem !important;
   font-size: 0.8rem;
   cursor: pointer;
-  background-color: black !important;
+  /* background-color: black !important; */
 }
 
 .radio-btn input{
