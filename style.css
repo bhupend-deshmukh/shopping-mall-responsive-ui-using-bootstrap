@@ -17,7 +17,11 @@ html {
   overflow-x: hidden;
 }
 
-
+.all-sections{
+  /* background-color: bl; */
+  width: 100%;
+  
+}
 
 .header-bar{
   position: sticky;
@@ -132,7 +136,7 @@ html {
 
 .details-product p,
 li {
-  font-size: .8rem;
+  font-size: 1rem;
   color: #797979;
 }
 .rating p {

@@ -192,6 +192,11 @@
     font-size: 2rem;
     display: none;
   }
+  
+  .navbar{
+    justify-content: center !important;
+    gap: 10rem;
+  }
 
   .shopping-text {
     font-size: 5rem;
@@ -217,13 +222,26 @@
   }
 
   .main-img img {
-    width: 27.5rem !important;
-    height: 40rem;
+    width: 50rem !important;
+    height: 65rem;
+  }
+  .child-img {
+    margin-left: -8rem;
+  }
+  .btn button{
+    font-size: 3rem;
+    padding-left: 5rem !important;
+    padding-right: 5rem !important;
   }
 
+  .btn select{
+    font-size: 3rem;
+    padding-left: 2.7rem !important;
+    padding-right: 2.7rem !important;
+  }
   .child-img img {
-    width: 7rem;
-    height: 10rem;
+    width: 13rem;
+    height: 20rem;
   }
   .btn {
     font-size: 1.9rem;
@@ -420,6 +438,7 @@
     font-size: 2.5rem !important;
     margin-left: 1rem;
   }
+
 }
 @media (max-width: 600px) {
   .inr-bio button {
@@ -428,13 +447,39 @@
     cursor: pointer;
   }
   .Other-Sellers h5 {
-    font-size: 2.5rem !important;
+    font-size: 5rem !important;
     margin-left: 1rem;
+  }
+  .descriptions h4{
+    font-size: 3rem;
+  }
+
+  .details-product p{
+    font-size: 2rem !important;
+  }
+
+  .Reviews{
+    margin-top: 10rem !important;
+  }
+
+  .Reviews p{
+    font-size: 2.5rem !important;
+
+
+  }
+  
+  .Reviews h4{
+    font-size: 3rem;
+
+  }
+  .descriptions p{
+    font-size: 2.5rem !important;
   }
   
 }
 
 @media (max-width: 750px) {
+
   .inr-bio button {
     width: auto !important;
     font-size: 3rem !important;
@@ -444,6 +489,10 @@
   .Other-Sellers h5 {
     font-size: 4rem !important;
     margin-left: 1rem;
+  }
+
+  .main-img img{
+
   }
 }
 
@@ -459,11 +508,14 @@
     font-size: 1rem !important;
   }
   .Other-Sellers h5 {
-    font-size: 1.3rem !important;
+    font-size: 2.5rem !important;
     margin-left: 1rem;
   }
-  .Other-Sellers h5 {
-    font-size: 1.3rem !important;
-    margin-left: 1rem;
+  .inr-bio{
+    justify-content: space-between;
+  }
+  .header-bar{
+    justify-content: center !important;
+    gap: 10rem;
   }
 }
